@@ -27,7 +27,7 @@ interface ModulesColumnProps {
 
 const modules = [
   { id: "text", icon: <Type />, title: "Texto" },
-  { id: "audio", icon: <Mic />, title: "Áudio", badge: "Novo" },
+  { id: "audio", icon: <Mic />, title: "Áudio", },
   { id: "timer", icon: <Timer />, title: "Timer" },
   { id: "carousel", icon: <SlidersHorizontal />, title: "Carousel" },
   { id: "image", icon: <ImageIcon />, title: "Imagem" },
