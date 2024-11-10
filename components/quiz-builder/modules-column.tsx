@@ -19,6 +19,7 @@ import {
   FormInput,
   SlidersHorizontal,
   FileBarChart,
+  Badge,
 } from "lucide-react";
 
 interface ModulesColumnProps {
@@ -27,7 +28,7 @@ interface ModulesColumnProps {
 
 const modules = [
   { id: "text", icon: <Type />, title: "Texto" },
-  { id: "audio", icon: <Mic />, title: "Áudio", },
+  { id: "audio", icon: <Mic />, title: "Áudio", Badge: "Novo" },
   { id: "timer", icon: <Timer />, title: "Timer" },
   { id: "carousel", icon: <SlidersHorizontal />, title: "Carousel" },
   { id: "image", icon: <ImageIcon />, title: "Imagem" },
